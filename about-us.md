@@ -1,0 +1,11 @@
+---
+title: About us
+editLink: true
+layout: AboutUs
+---
+<!-- # About us -->
+My passion for the Chinese language and its culture began when I started my degree in East Asian Studies at the Autonomous University of Barcelona in 2010. From the beginning I fell in love with this language, but I understood that if I wanted to learn it well I had to be in a Chinese-speaking country. From 2010 to 2020 I made several stays in China and Taiwan (Beijing, Hainan, Taipei) with a clear goal: to learn Chinese. Since 2020 I have been living in the Cantonese city of Shenzhen, known as the Sillcon Valley of China. Here I combine teaching and translation. I work as a teacher of Spanish as a foreign language at Shenzhen Polytechnic University, and at the same time, I translate from Chinese into Spanish. 
+
+My services are not strictly speaking those of an agency, as I did not want to lose the familiar and personal character that characterises me. But some time ago I decided to go a step further and create a team. Over the years I have collaborated with some other sinologist, which shares the   same interest in Chinese language and culture. All the collaborators are language professionals with extensive academic and work experience in the world of Sinology. The Chinese language and culture have an impressive richness, and in order to get to know and understand this wonderful culture it takes a lot of time and effort. I firmly believe that only through many years of experience, effort and contact with the Chinese people can one come to understand their culture. In order to translate correctly from Chinese into Spanish it is necessary to have a broad knowledge of their culture. For this reason I only work with professionals who have training and experience in the fields of translation and sinology. 
+
+I cannot forget translations into Chinese. For translations from Spanish to Chinese I only collaborate with native speakers with a degree in Spanish philology and with training and experience in translating from Spanish to Chinese. Together, we create an international team with one goal: the communication and transmission of information between China and Spanish-speaking countries.
