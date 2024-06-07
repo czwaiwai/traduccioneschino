@@ -2,11 +2,17 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "traduccioneschino",
-  description: "traduccioneschino",
+  title: "traduccioneschino",    
+  keywords: "traduccioneschino,Academic translation,AV translation,Subtitling,Website translation,Business translation,Official translation,Technical translation,Videogames translation",  
+  description: "traduccioneschino,Academic translation,AV translation,Subtitling,Website translation,Business translation,Official translation,Technical translation,Videogames translation",
   lang: 'en-US',
   base: '/',
   cleanUrls: true,
+  markdown: {
+    image: {
+      lazyLoading: true
+    }
+  },
   // rewrites: {
   //   'posts/test-:name': 'cn/posts/:name',
   //   'posts/es-:name': 'es/posts/:name'
