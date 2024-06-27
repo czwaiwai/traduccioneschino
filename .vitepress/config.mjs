@@ -2,9 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "traduccioneschino",    
-  keywords: "traduccioneschino,Academic translation,AV translation,Subtitling,Website translation,Business translation,Official translation,Technical translation,Videogames translation",  
-  description: "traduccioneschino,Academic translation,AV translation,Subtitling,Website translation,Business translation,Official translation,Technical translation,Videogames translation",
+  title: "traduccioneschino",
+  description: "traduccioneschino,Academic translation,AV translation,Subtitling,Website translation,Business translation,Official translation,Technical translation,Videogames translation,中西翻译,学术翻译,视频翻译,字幕翻译,网站翻译,商业翻译,官方翻译,专业翻译,游戏翻译, Traducción académica,Traducción audiovisual,Subtitulación,Traducción de sitios web,Traducción comercial,Traducción jurada,Traducción técnica,Traducción de videojuegos",
   lang: 'en-US',
   base: '/',
   cleanUrls: true,
@@ -12,6 +11,13 @@ export default defineConfig({
     image: {
       lazyLoading: true
     }
+  },
+  head: [
+    ['link',{ rel: 'icon', href: '/favicon.ico' } ],
+    ['meta', { name: 'Keywords', content: 'traduccioneschino,中西翻译,Academic translation,AV translation,Subtitling,Website translation,Business translation,Official translation,Technical translation,Videogames translation,学术翻译,视频翻译,字幕翻译,网站翻译,商业翻译,官方翻译,专业翻译,游戏翻译'}]
+  ],
+  sitemap: {
+    hostname: 'https://traduccioneschino.com'
   },
   // rewrites: {
   //   'posts/test-:name': 'cn/posts/:name',
@@ -28,6 +34,9 @@ export default defineConfig({
       dir: 'cn',
       link: '/cn',
       title: '中西翻译',
+      head: [
+        ['meta', { name: 'Keywords', content: '中西翻译,traduccioneschino,学术翻译,视频翻译,字幕翻译,网站翻译,商业翻译,官方翻译,专业翻译,游戏翻译'}]
+      ],
       themeConfig: {
         outline: {
           label: '翻译项目'
@@ -39,7 +48,7 @@ export default defineConfig({
           { text: '常见问题', link: '/cn/faq' },
           { text: '关于我们', link: '/cn/about-us' },
           { text: '联系我们', link: '/cn/contact-us' },
-          { text: '博客', link: '/cn/blog' },
+          { text: '博客', link: 'https://haimingchina.blogspot.com' },
           { text: '报价', link: '/cn/ask-for-a-quote' }
         ],
         // sidebar: {
@@ -81,7 +90,7 @@ export default defineConfig({
           { text: 'FAQ', link: '/es/faq' },
           { text: 'Sobre nosotros', link: '/es/about-us' },
           { text: 'Contacto', link: '/es/contact-us' },
-          { text: 'Blog', link: '/es/blog' },
+          { text: 'Blog', link: 'https://haimingchina.blogspot.com' },
           { text: 'Solicitar prespupuesto', link: '/es/ask-for-a-quote' }
         ],
         // sidebar: {
@@ -105,7 +114,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.jpg',
     siteTitle: false,
     outline: {
       label: 'Services'
@@ -154,7 +163,7 @@ export default defineConfig({
       { text: 'FAQ', link: '/faq' },
       { text: 'About us', link: '/about-us' },
       { text: 'Contact us', link: '/contact-us' },
-      { text: 'Blog', link: '/blog' },
+      { text: 'Blog', link: 'https://haimingchina.blogspot.com' },
       { text: 'Ask for a quote', link: '/ask-for-a-quote' }
     ],
     // sidebar: {
@@ -177,10 +186,10 @@ export default defineConfig({
     footer: {
       // message: 'Released under the MIT License.',
       copyright: 'Copyright © 2019-present Evan You <a target="_blank"  href="/privacy-policy">Privacy Policy</a> <a target="_blank" href="/cookie-policy">COOKIE POLICY</a> <a  target="_blank"  href="/LSSI">LSSI</a>'
-    }
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    // ]
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+    ]
   },
   vite: {
      ssr: {

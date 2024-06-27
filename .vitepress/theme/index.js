@@ -26,6 +26,8 @@ export default {
   extends: DefaultTheme,
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
+      // 'layout-top':  () => h(DocTop),
+      // 'nav-screen-content-before': () => h(DocTop),
       'home-features-before': () => h(HomeTitle),
       'home-hero-before': () => h(HomeBanner),
       'home-features-after': () => h(HomeBody),
