@@ -8,7 +8,7 @@
             <div class="row">
                 <div class="col-lg-12 mx-auto">
                     <div id="parentHorizontalTab">
-                        <div class="resp-tabs-container hor_1">
+                        <div class="hor_1">
                             <div class="products-content">
                                 <div class="row flex-mx-column-reverse mt-4">
                                     <div class="col-lg-6 tabw3-left  ">
