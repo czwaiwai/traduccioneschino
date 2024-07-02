@@ -184,11 +184,15 @@ export default defineConfig({
     //   ],
     // },
     footer: {
-      // message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You <a target="_blank"  href="/privacy-policy">Privacy Policy</a> <a target="_blank" href="/cookie-policy">COOKIE POLICY</a> <a  target="_blank"  href="/LSSI">LSSI</a>'
+      message: '<a class="foot_link" href="mailto:info@xibanyazixun.cn"><i class="fas fa-envelope-open-text"></i> info@xibanyazixun.cn</a>  <a class="foot_link" href="tel:+0034606840893"><i class="fas fa-phone-alt"></i> +0034 606 840 893</a> <a class="foot_link" href="/wechat" target="_blank"><i class="fas fa-weixin"></i> 微信咨询</a>',
+      copyright: 'Copyright © 2019-present Hai Ming China <a target="_blank"  href="/privacy-policy">Privacy Policy</a> <a target="_blank" href="/cookie-policy">COOKIE POLICY</a> <a  target="_blank"  href="/LSSI">LSSI</a>'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'instagram', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'wechat', link: '/wechat' },
+      { icon: 'facebook', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'weibo', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'youtube', link: 'https://github.com/vuejs/vitepress' },
     ]
   },
   vite: {

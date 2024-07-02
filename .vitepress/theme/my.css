@@ -11,3 +11,12 @@
 .red {
   color: var(--bs-red, #dc3545)
 }
+.vpi-social-weibo{
+  --icon:url(/weibo.svg)
+}
+.vpi-social-wechat{
+  --icon:url(/weixin.svg)
+}
+.foot_link {
+  color: var(--vp-c-text-2);
+}
