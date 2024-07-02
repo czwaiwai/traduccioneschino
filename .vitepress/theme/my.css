@@ -20,3 +20,8 @@
 .foot_link {
   color: var(--vp-c-text-2);
 }
+@media (max-width:1024px) {
+  .flex-mx-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+}

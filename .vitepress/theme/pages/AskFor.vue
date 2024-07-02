@@ -10,7 +10,7 @@
                     <div id="parentHorizontalTab">
                         <div class="resp-tabs-container hor_1">
                             <div class="products-content">
-                                <div class="row flex-sm-column-reverse flex-md-column-reverse mt-4">
+                                <div class="row flex-mx-column-reverse mt-4">
                                     <div class="col-lg-6 tabw3-left  ">
                                         <h4 v-if="$frontmatter.headTitle" class="head">{{ $frontmatter.headTitle }}</h4>
                                         <p v-if="$frontmatter.headSubTitle">{{ $frontmatter.headSubTitle }}</p>
