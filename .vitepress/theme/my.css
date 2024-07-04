@@ -25,3 +25,14 @@
     flex-direction: column-reverse !important;
   }
 }
+
+.ask_content  ul{
+  list-style: disc;
+  list-style-position: outside;
+  margin-left:20px;
+  padding:inherit;
+}
+.ask_content ul li {
+  list-style-type: disc;
+  list-style: outside !important;
+}

@@ -13,8 +13,8 @@
                                 <div class="row flex-mx-column-reverse mt-4">
                                     <div class="col-lg-6 tabw3-left  ">
                                         <h4 v-if="$frontmatter.headTitle" class="head">{{ $frontmatter.headTitle }}</h4>
-                                        <p v-if="$frontmatter.headSubTitle">{{ $frontmatter.headSubTitle }}</p>
-                                        <div class="w3l-products w3l-right-book">
+                                        <h5 v-if="$frontmatter.headSubTitle">{{ $frontmatter.headSubTitle }}</h5>
+                                        <div class="w3l-products w3l-right-book ask_content" >
                                             <Content/>
                                         </div>
                                     </div>
